@@ -48,6 +48,9 @@ public class BuscarComprobanteForm extends javax.swing.JInternalFrame {
         jLabel14 = new javax.swing.JLabel();
         lblTotal = new javax.swing.JLabel();
 
+        setClosable(true);
+        setIconifiable(true);
+
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Ingrese numero de factura"));
 
         btnBuscar.setText("Buscar");
